@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+   <!--FONT-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Quiz</title>
+</head>
+<body>
+
+  <div id="container_popup" class="container_popup">
+   <div id="popup" class="popup">
+     <p>Du måste välja ett alternativ!</p>
+   </div>
+  </div>
+
+ 
+  <div class="wrapper" id="wrapper">
+  
+
+  
+
+    <div id="playspace"></div>
+   
+    <div class="gradient" id="gradient">
+      <div id="welcome">
+       <h1>Ankademins Quiz</h1>
+        <h2>Sätt din allmänbildning på prov!</h2>
+
+        <div class="button_container_flex">
+         <div class="button_container">
+          <button id="button-start"  class="for_button">
+            <span>Starta quiz</span>
+         </div>
+         </button>
+
+         <div class="button_container">
+          <button id="button-theme"  class="for_button">
+           <span>Välj Tema</span>
+          </button>
+         </div>
+
+        </div>
+
+      </div>
+    </div>
+  
+   <div id="button_container" class="button_container hide">
+   
+    <button id="button-next" class="button hide">
+      <span>Svara!</span>
+    </button>
+
+    <button id="button-replay" class="hide">
+      <span>Spela igen</span>
+    </button>
+   </div>
+
+   
+
+
+  </div>
+
+
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
